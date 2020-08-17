@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reference from a video https://www.youtube.com/watch?v=PwWHL3RyQgk . It was used as a template only */
+li,a,button {
+    font-family: "Bitter", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: Black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+}
+
+.navigation_links {
+    list-style: none;
+
+}
+
+.navigation_links li{
+    display: inline-block;
+    padding: 0px 20 px;
+}
+
+.navigation_links li a{
+    transition: all 0.3s ease 0s;
+    padding: 20px;
+    margin: 1em;
+}
+
+.navigation_links li a:hover {
+    color: #E3F1FE;
+}
+
+button {
+    padding: 9px 25 px ;
+    background-color: rgba (277,248,254,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+}
+
+button:hover {
+    background-color: #E3F1FE;
+}
+/* End of reference*/
+
+
+h1{
+    font-family: "bitter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  
+}
+
+h2{
+    font-family: "bitter", sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    line-height: 40px;
+
+}
+
+h4{
+    font-family: "bitter", sans-serif;
+    color: gray;
+}
+
+
+/* Reference from Daria Czajkowska AS1 retake*/
+/* styles for footer */
+footer {
+    list-style: none;
+    font-weight: normal;
+    font-family: "Bitter";
+    margin: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    /* you cant use it change to pagging or margine */
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px 20px;
+    transition: .5s;
+  }
+
+  .rb {
+    list-style: none;
+    font-size: 1.6em;
+    /*  border: 3px solid white; */
+    border-radius: 100%;
+    padding: 0.1em;
+    margin: 1.4vh;
+    color: #81c8da;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  /* end of reference*/
+
+/* THIS IS CSS CODE FOR INDEX PAGE*/
+
+.title{
+    font-style: italic;
+    text-align: center;
+    background-color:#E3F1FE ;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.paragraf{
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin: 100px;
+    margin-bottom: 200px;
+
+}
+/* THIS IS CSS CODE FOR PROFILE PAGE*/
+.flex_containers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: #E3F1FE ;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+
+
+/* THIS IS CSS CODE FOR CV PAGE*/
+
+/* THIS IS CSS CODE FOR CONTACT PAGE*/
