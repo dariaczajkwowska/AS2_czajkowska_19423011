@@ -34,7 +34,7 @@ header{
 
 .navigation_links li{
     display: inline-block;
-    padding: 0px 20 px;
+    padding:  20px;
 }
 
 .navigation_links li a{
@@ -48,8 +48,8 @@ header{
 }
 
 button {
-    padding: 9px 25 px ;
-    background-color: rgba (277,248,254,1);
+    padding: 25px ;
+    background-color: rgba(277, 248, 254, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -59,6 +59,7 @@ button {
 button:hover {
     background-color: #E3F1FE;
 }
+
 /* End of reference*/
 
 
@@ -66,8 +67,6 @@ h1{
     font-family: "bitter", sans-serif;
     font-weight: 500;
     font-size: 30px;
-    a
-  
 }
 
 h2{
@@ -78,7 +77,7 @@ h2{
 
 }
 h3{
-    font-style: bold;
+    font-style: normal;
     font-size: 25px;
 
 }
