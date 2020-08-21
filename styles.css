@@ -66,6 +66,7 @@ h1{
     font-family: "bitter", sans-serif;
     font-weight: 500;
     font-size: 30px;
+    a
   
 }
 
@@ -76,16 +77,35 @@ h2{
     line-height: 40px;
 
 }
+h3{
+    font-style: bold;
+    font-size: 25px;
+
+}
 
 h4{
+    color: gray;
+    font-style: italic;
+}
+
+h7{
+
     font-family: "bitter", sans-serif;
     color: gray;
 }
 
+.web1 {
 
+    position: relative;
+}
+
+.web2{
+    position: relative;
+}
 /* Reference from Daria Czajkowska AS1 retake*/
 /* styles for footer */
 footer {
+    
     list-style: none;
     font-weight: normal;
     font-family: "Bitter";
@@ -93,10 +113,9 @@ footer {
     width: 100%;
     height: 20px;
     text-align: center;
-    /* you cant use it change to pagging or margine */
     display: inline-flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;;
     font-size: 20px;
     padding: 20px 20px;
     transition: .5s;
@@ -105,7 +124,7 @@ footer {
   .rb {
     list-style: none;
     font-size: 1.6em;
-    /*  border: 3px solid white; */
+    border: 3px solid white; 
     border-radius: 100%;
     padding: 0.1em;
     margin: 1.4vh;
@@ -113,7 +132,7 @@ footer {
   }
   li {
     list-style: none;
-    display: inline-block;
+   display: inline-block;
   }
   /* end of reference*/
 
@@ -132,9 +151,15 @@ footer {
     margin-left: 10em;
     margin-right: 10em;
     margin: 100px;
-    margin-bottom: 200px;
-
+    margin-bottom: 250px;
 }
+
+.title_contact{
+    text-align: center;
+    padding: 20px;
+}
+
+
 /* THIS IS CSS CODE FOR PROFILE PAGE*/
 .flex_containers{
     display: flex;
@@ -144,12 +169,41 @@ footer {
 .box{
     height: 300px;
     width: 500px;
-    background-color: #E3F1FE ;
     margin: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
+    align-items: center;
 }
 
 
 /* THIS IS CSS CODE FOR CV PAGE*/
+.cv_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 300px;
+    margin-left: 120px;
+    padding: 30px;
+    font-family: "bitter",sans-serif;
+    font-weight: 500;
+
+}
+
+.photo{
+    margin-left: 40px;
+    margin-right: 100px;
+}
+.empty{
+    height: 500px;
+    width: 20px;
+    background-color:#E3F1FE ;
+    margin: 10px;
+}
+
+.info{
+    text-align: center;
+    float: right;
+}
 
 /* THIS IS CSS CODE FOR CONTACT PAGE*/
+
